@@ -13,7 +13,17 @@ class UsersController < ApplicationController
   end
 
   def destroy
-      @users.destroy 
-      redirect_to root_path
+    @users = User.find(params[:id])
+    @users.destroy
+    # redirect_to new_view_session_path
   end
+
+  # private
+  # def set_user
+  #   @users = User.find(params [:id])
+  # end
+
+  # def user_params 
+  #   params.require(:user).permit(:email,:password)
+  # end
 end

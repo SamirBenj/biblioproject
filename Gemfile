@@ -76,3 +76,5 @@ group :test do
 end
 
 gem "pg", "~> 1.3"
+
+gem "rake", "~> 13.0"

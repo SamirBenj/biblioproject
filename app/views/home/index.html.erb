@@ -6,22 +6,9 @@
 
   <body>
     <h1>Page Home</h1>
-    <!--<% @leslivres.each do |livre| %>
-      <div> <%= livre.domain %> </div>
-    <div> <%= livre.titre %> </div>
-    <div> <%= livre.auteur %> </div>
-      <div> <%= link_to "Voir livre", livre_path(livre) %> </div>
-      <div> <%= link_to "ajouter nouveau livre", new_livre_path() %> </div>
-      <div> <%= link_to "supprimer nouveau livre", livre_path(livre), method: :delete %> </div>
-   <hr>
-   
-    <%end%>-->
-    <!--<% @users.each do |user| %>
-      <div> <%= user.email %> </div>
-    <%end%>-->
     
-    <div><%= link_to "Creer un utilisateur",new_user_session_path %></div>
-    <div><%= link_to "Se connecter", new_user_registration_path %></div>
+    <div><%= link_to "Creer un utilisateur", new_user_registration_path %></div>
+    <div><%= link_to "Se connecter", user_session_path %></div>
     <div><%= link_to "Afficher les livres", livres_path() %></div>
     <div><%= link_to "Afficher les utilisateurs", users_index_path() %></div>
 

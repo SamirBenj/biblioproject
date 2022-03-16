@@ -3,8 +3,9 @@
 
 <% @users.each do |user| %>
       <div> <%= user.email %> </div>
-        <div><%= link_to "Supprimer un utilisateur", destroy_user_session_path() %></div>
+        <div><%= link_to "Supprimer un utilisateur", destroy_user_session_path %></div>
+        <%= debug user.id%>
+        <div><%= link_to "Test supprimer", users_destroy_path(:id => user.id)%></div>
 
     <hr>
-
     <%end%>
