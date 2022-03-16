@@ -2,17 +2,32 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
 
   <body>
-    <h1>Page Home</h1>
+    <h1>Accueil</h1>
     
-    <div><%= link_to "Creer un utilisateur", new_user_registration_path %></div>
-    <div><%= link_to "Se connecter", user_session_path %></div>
-    <div><%= link_to "Afficher les livres", livres_path() %></div>
-    <div><%= link_to "Afficher les utilisateurs", users_index_path() %></div>
+    <div class="mainContainer">
+      <button type="button" class="btn btn-primary">
+      <%= link_to "Creer un utilisateur", new_user_registration_path,{:style=>'color:white;', :class => "button-class"} %>
+      </button>
+
+      <button type="button" class="btn btn-primary">
+          <%= link_to "Se connecter", user_session_path,{:style=>'color:white;', :class => "button-class"} %>
+      </button>
+
+      <button type="button" class="btn btn-primary">
+          <%= link_to "Afficher les livres", livres_path(),{:style=>'color:white;', :class => "button-class"} %>
+      </button>
+      
+      <button type="button" class="btn btn-primary">
+      <%= link_to "Afficher les utilisateurs", users_index_path(),{:style=>'color:white;', :class => "button-class"} %>
+      </button>
+    </div>
 
   </body>
+  
 </html>
 
 

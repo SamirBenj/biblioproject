@@ -12,15 +12,15 @@
 
   <body>
 
+    <%= yield %>
+    
  <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
   <% if user_signed_in? %>
     <p>connecte</p>
-
+    <div><%= link_to "Sign out", destroy_user_session_path() %></div>
     <% else %>
     <p>n'est pas connecté</p>
   <% end %>
-    <%= yield %>
-    
   </body>
 </html>

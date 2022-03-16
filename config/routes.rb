@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
+  devise_for :views
   get 'users/index'
   get 'users/show'
   get 'users/edit'
   get 'users/update'
   get 'users/destroy'  
-  devise_for :views
   devise_for :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

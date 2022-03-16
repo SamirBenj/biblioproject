@@ -17,5 +17,78 @@
     color: red;
 }
 .titre{
-    color: blue;
+    color: rgb(106, 140, 255);
+}
+
+.button-class{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-primary{
+    margin:10px;
+  }
+h1 {
+    text-align: center;
+    padding: 20px;
+    
+}
+.mainContainer{
+    left: auto;
+    right: auto;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.35);
+    border-radius: 30px;
+    width: fit-content;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+input {
+    border-radius: 30px;
+    border-style: none;
+    padding: 10px;
+    background-color: rgba(163, 166, 169, 0.331);
+}
+
+label{
+    font-weight: bold;
+    color: grey;
+    margin: 10px;
+}
+.field{
+    text-align: center;
+}
+.actions input{
+   
+    background-color: rgba(0, 0, 255, 0.557);
+}
+.actions {
+    margin: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card-container{
+    background-color: rgb(189, 186, 186);
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    width: fit-content;
+    border-radius: 20px;
+}
+.card-container p{
+    padding: 0px;
+    font-weight: bold;
+}
+
+u{
+    text-decoration: none;
+    color: rgb(106, 140, 255);
 }
