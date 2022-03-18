@@ -15,7 +15,7 @@ class UsersController < ApplicationController
   def destroy
     @users = User.find(params[:id])
     @users.destroy
-    # redirect_to new_view_session_path
+    # redirect_to user_destroy_
   end
 
   private

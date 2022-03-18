@@ -13,14 +13,13 @@
   <body>
 
     <%= yield %>
-    
- <p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
-  <% if user_signed_in? %>
+    <% if user_signed_in? %>
     <p class="userStatut">connecté</p>
     <div class="userSignOut"><%= link_to "DECONNEXION", destroy_user_session_path() %></div>
     <% else %>
     <p  class="userStatut">n'est pas connecté</p>
-  <% end %>
+  <% end %> 
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
   </body>
 </html>
