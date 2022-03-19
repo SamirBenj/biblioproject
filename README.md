@@ -1,24 +1,16 @@
-# README
+TP Bibiliotheque Ruby on rails fait par Samir et Laurent.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Vous aurez la possibilité de :
 
-Things you may want to cover:
+    - Creer un utilisateur
+    - Supprimer un utilisateur
+    - Se connecter
+    - Se deconnecter
+    - Afficher la liste des utilisateurs
+    - Ajouter un livre
+    - Supprimer un livre
+    - Modifier un livre
+    
+Lien : demo https://youtu.be/414A8d7pwDM
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*N'oublier d'executer npm install avec dans lancer le serveur.

@@ -17,3 +17,4 @@ Rails.application.routes.draw do
   # delete "users/:id", to: "users#destroy"
   # devise_for :users, controllers: { sessions: 'users/sessions' }
 end
+
