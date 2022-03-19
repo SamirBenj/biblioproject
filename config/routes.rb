@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :views
+  # devise_for :views
   get 'users/index'
   get 'users/show'
   get 'users/edit'
